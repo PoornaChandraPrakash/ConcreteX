@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Belanosima&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+
+#logo {
+  font-family: "Belanosima", sans-serif;
+}
+
+.nav-item a {
+  margin-left: 16px;
+  font-family: "Belanosima", sans-serif;
+}
+
+.container {
+  padding: 1rem;
+}
+
+.category-card {
+  transition: box-shadow 0.3s;
+}
+.category-card:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  color: #0000005d;
+}
+
+#contactus {
+  background-color: #eaecef;
+  border-radius: 0.3rem;
+}
+
+h2 {
+  padding-bottom: 4px;
+}
