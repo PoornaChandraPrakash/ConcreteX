@@ -35,3 +35,19 @@
 h2 {
   padding-bottom: 4px;
 }
+
+.card-title {
+  color: black;
+  text-decoration: none;
+}
+
+.card-title:hover {
+  text-decoration: none;
+  color: black;
+}
+
+#productCard:hover {
+  cursor: pointer;
+  transition: 0.8s;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
